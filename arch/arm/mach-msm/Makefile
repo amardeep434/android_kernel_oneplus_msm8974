@@ -426,3 +426,5 @@ obj-$(CONFIG_ARCH_RANDOM) += early_random.o
 obj-$(CONFIG_PERFMAP) += perfmap.o
 
 obj-$(CONFIG_LCD_KCAL) += board_kcal.o kcal_ctrl.o
+
+obj-$(CONFIG_CHARGE_LEVEL) += charge_level.o
